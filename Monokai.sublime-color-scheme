@@ -1,0 +1,32 @@
+{
+	// http://www.sublimetext.com/docs/3/color_schemes.html
+	"variables": {
+		// "green": "#FF0000",
+	},
+	"globals": {
+		// "foreground": "var(green)",
+	},
+	"rules": [
+		{
+			// "scope": "string",
+			// "foreground": "#00FF00",
+		},
+		{
+        "name": "Conditional",
+        "scope": "constant.boolean.sql",
+        "foreground": "var(purple)",
+        "font_style": "bold"
+     },
+     {
+        "name": "Keyword SQL",
+        "scope": "meta.create.sql",
+        "foreground": "var(red2)"
+     },
+     {
+        "name": "Table Names",
+        "scope": "entity.name.function.sql",
+         "font_style": "italic"
+     },
+
+	],
+}
